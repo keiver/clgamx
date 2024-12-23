@@ -1,20 +1,15 @@
-# most common tp ignore
-logs
-*.log
-build
+
 node_modules/
-typings/
-*.tsbuildinfo
 .npm
 .eslintcache
 .yarn-integrity
-.env
-.env.test
 .cache
-dist
 .cache/
-.serverless/
+.env
+.env.local
+.env.test
 build/
 out/
-
-mockServer/
+.serverless/
+dist/*
+!dist/mockServiceWorker.js  # keeping this file as its used in mockServer(with no env differenciation)
