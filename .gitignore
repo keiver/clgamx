@@ -1,0 +1,20 @@
+# most common tp ignore
+logs
+*.log
+build
+node_modules/
+typings/
+*.tsbuildinfo
+.npm
+.eslintcache
+.yarn-integrity
+.env
+.env.test
+.cache
+dist
+.cache/
+.serverless/
+build/
+out/
+
+mockServer/
